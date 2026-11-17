@@ -22,12 +22,56 @@
 
 - Elige un README personal que no sea el tuyo
 - Haz un fork del repositorio con el botón "Fork"
+- Haz cualquier cambio en el archivo `README.md`
+
+![Grabar cambios en GitHub](./public/commit-changes-github.png)
+
+- Vuelve a la vista principal del repositorio y abre un pull request
+
+![Abrir pull request en GitHub](./public/contribute-github.png)
+
+- Espera a que la otra persona apruebe y mezcle tu pull request
+
+![Aprobación de un Pull Request en GitHub](./public/pr-approval.png)
+
+**Completado cuando**: tu pull request se ha mezclado 🎉
+
+## 4. Contribuye una segunda vez usando ramas
+
+> [!WARNING]
+> Esto parece una tontería, pero no lo es. _Después_ de que se mezcle la primera contribución,
+> hay que hacer una limpieza para poder seguir trabajando. Esta sección te guía por esos pasos.
+
+- Entra en tu fork en GitHub, y sincroniza los cambios
+
+![Sincronizar un fork en GitHub](./public/github-sync-fork.png)
+
+- Sigue los pasos del ejercicio anterior para deshacer los cambios en README, esta vez creando una rama nueva llamada `undo-changes`
+- Envía otro pull request y espera a que la otra persona lo mezcle
+- Cuando esté mezclado, busca el botón de "eliminar rama" en el pull request
+- Sigue los pasos del principio de este ejercicio para sincronizar tu fork
+
+**Completado cuando**: tu segunda pull request se ha mezclado, tu fork está al día, y la rama temporal se ha eliminado 🎉
+
+## 5. Contribuye una tercera vez usando VS Code
+
+> [!NOTE]
+> VS Code en GitHub Codespaces será tu entorno de desarrollo en la nube.
+> Esto añade una tercera pieza que hay que sincronizar al hacer cambios.
+
+![Flujos de trabajo triangulares](https://github.blog/wp-content/uploads/2015/07/5dcdcae4-354a-11e5-9f82-915914fad4f7.png)
+
+- Asegúrate de que tu fork está al día
 - En tu fork, pulsa "Code" → "Codespaces" → "Create codespace on main"
 
 ![Botón de GitHub Codespaces](./public/codespaces-button.png)
 
 - Espera a que se abra Visual Studio Code en el navegador
 - Haz cualquier cambio en el archivo `README.md`
+- Crea una rama llamada `restore-changes`
+
+![Crear una rama en VS Code](./public/branch-vs-code.png)
+
 - Haz commit y push de tu cambio con la interfaz de VS Code
 
 ![Commit en VS Code](./public/commit-vs-code.png)
@@ -36,30 +80,15 @@
 
 ![Pull Request en VS Code](./public/pr-vs-code.png)
 
-- Espera a que la otra persona apruebe y mezcle tu pull request
-
-![Aprobación de un Pull Request en GitHub](./public/pr-approval.png)
-
-**Completado cuando**: tu pull request se ha mezclado 🎉
-
-## 4. Colabora una segunda vez con otra persona
-
-> [!WARNING]
-> Esto parece una tontería, pero no lo es. _Después_ de que se mezcle la primera contribución,
-> hay que hacer una limpieza para poder seguir trabajando. Esta sección te guía por esos pasos.
-
-![Flujos de trabajo triangulares](https://github.blog/wp-content/uploads/2015/07/5dcdcae4-354a-11e5-9f82-915914fad4f7.png)
-
+- Espera a que la otra persona mezcle tu pull request
 - Entra en tu fork en GitHub, y sincroniza los cambios
 
 ![Sincronizar un fork en GitHub](./public/github-sync-fork.png)
 
-- Refresca los cambios from todos los orígenes en VS Code
+- A continuación, refresca los cambios de todos los orígenes en VS Code
 
 ![Refrescar cambios de todos los orígenes en VS Code](./public/fetch-remotes-vs-code.png)
 
-- Cuando se hayan refrescado los cambios, haz click en "Sync Changes" para sincronizar tu entorno de desarrollo
-- Sigue los pasos del ejercicio anterior para mandar otro pull request deshaciendo los cambios y devolviendo el README a su estado original
-- Cuando esté mezclado, sigue los pasos del principio de este ejercicio para sincronizar tu fork y tu entorno de desarrollo
+- Haz click en "Sync Changes" para sincronizar tu entorno de desarrollo
 
-**Completado cuando**: tu segunda pull request se ha mezclado, tu fork está al día y tu entorno de desarrollo también 🎉
+**Completado cuando**: tu tercera pull request se ha mezclado, tu fork está al día, tu entorno de desarrollo también, y la rama temporal se ha eliminado tanto en el entorno de desarrollo como en tu fork 🎉
