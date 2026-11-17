@@ -1,0 +1,5 @@
+[dependency-groups]
+dev = [
+    "marimo>=0.25.2",
+]
+
