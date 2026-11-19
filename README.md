@@ -14,3 +14,6 @@ Juan Luis Cano Rodríguez <hello@juanlu.space>
 - **Entornos de desarrollo efímeros** con _GitHub Codespaces_
 
 Diapositivas: https://astrojuanlu.github.io/curso-ciencia-computacional/
+
+- Día 1: https://astrojuanlu.github.io/curso-ciencia-computacional/day1/
+- Día 2: https://astrojuanlu.github.io/curso-ciencia-computacional/day2/

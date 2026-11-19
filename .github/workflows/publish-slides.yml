@@ -33,9 +33,19 @@ jobs:
       - name: Export Day 1 slides to WASM
         run: >-
           uv run marimo export html-wasm day1.py
-          --output _site
+          --output _site/day1
           --mode run
           --force
+
+      - name: Export Day 2 slides to WASM
+        run: >-
+          uv run marimo export html-wasm day2.py
+          --output _site/day2
+          --mode run
+          --force
+
+      - name: Add landing page
+        run: cp index.html _site/index.html
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9  # v5.0.0
